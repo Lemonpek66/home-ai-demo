@@ -42,6 +42,13 @@ That inspired us to build an app that *literally sees the mess* using AI.
 ## 🧩 How to Run Locally
 
 1. Use Chrome Canary or Dev (v127+)
-2. Enable:
+2. Enable: chrome://flags/#prompt-api
+3. Run:
+```bash
+python3 -m http.server 8080
+4.Visit http://localhost:8080
+5.Allow camera and click 📸 Capture & Analyze
+
+
 
 
