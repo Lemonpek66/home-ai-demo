@@ -1,13 +1,47 @@
-# 🏠 HomeHero AI – Chrome Built-in AI Demo
+# 🏠 HomeHero AI – Vision Assistant (Chrome Built-in AI Challenge 2025)
 
 **See the mess. Be the hero.**
 
-This project demonstrates how to use **Google Chrome’s Built-in Prompt API** to detect and suggest household chores from an image — the first step of the *HomeHero AI* concept.
+HomeHero AI helps husbands (and anyone, really!) visually identify housework tasks using the **Chrome Built-in Prompt API**.  
+By scanning a room through the camera, the app detects chores — like dishes, trash, laundry — and suggests what to do next.
 
 ---
 
-## 🚀 How to Run
+## ✨ Inspiration
 
-1. Clone or download this folder.
-2. Open Chrome Canary or Chrome Beta (v127+).
-3. Enable Built-in AI features via:
+It started from a simple idea:  
+> “Many men want to help at home but simply *don’t notice* what needs to be done.”  
+
+That inspired us to build an app that *literally sees the mess* using AI.
+
+---
+
+## 🧠 What We Built
+
+- Chrome Web App using **Prompt API** (Built-in AI)
+- Uses **camera feed** via `getUserMedia()`
+- Captures an image and sends it to AI for analysis
+- AI suggests visible chores in friendly, human terms
+- Visual “bounding boxes” appear over the video to mark detected areas
+
+---
+
+## 🧰 Technologies Used
+
+| Category | Tool |
+|-----------|------|
+| Language | JavaScript (ES Modules) |
+| Framework | None (pure HTML/CSS/JS) |
+| Browser API | Chrome Built-in AI – `ai.LanguageModel` |
+| Camera | `navigator.mediaDevices.getUserMedia()` |
+| Hosting | Local HTTP server / GitHub Pages |
+| Visualization | Canvas overlay for bounding boxes |
+
+---
+
+## 🧩 How to Run Locally
+
+1. Use Chrome Canary or Dev (v127+)
+2. Enable:
+
+
