@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomeHero AI – Vision Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🏠 HomeHero AI</h1>
+  <p>See the mess. Be the hero.</p>
+
+  <div class="camera-wrapper">
+    <video id="camera" autoplay playsinline></video>
+    <canvas id="overlay"></canvas>
+  </div>
+
+  <div class="button-group">
+    <button id="captureBtn">📸 Capture & Analyze</button>
+    <button id="stopBtn">⏹ Stop Camera</button>
+  </div>
+
+  <div id="result" class="result-box"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
+
+
